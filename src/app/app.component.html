@@ -1,0 +1,11 @@
+<h2 class="main-title">Read more examples</h2>
+<hr>
+<div class="container">
+  <app-read-more
+    *ngFor="let item of items"
+    [content]="item"
+    [limit]="300"
+    [completeWords]="true"
+  >
+  </app-read-more>
+</div>
